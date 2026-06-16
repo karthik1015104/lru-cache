@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from collections import OrderedDict
 from lru_cache import LRUCache
 
+random.seed(42)  # for reproducibility
+
 # ── Shared visit sequence ─────────────────────────────────────────
 pages = [
     "google.com", "youtube.com", "github.com", "google.com",
